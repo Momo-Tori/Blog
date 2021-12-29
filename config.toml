@@ -1,0 +1,81 @@
+baseURL = "http://home.ustc.edu.cn/~taoyang_2002/blog/public/"
+languageCode = "zh-cn"
+title = "MomoTori的博客"
+theme = "beautifulhugo"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[Params]
+  homeTitle = "Trash Dump" # Set a different text for the header on the home page
+  subtitle = "Anime is trash,and so am I."
+  mainSections = ["post","posts"]
+  logo = "img/avatar.jpg" # Expecting square dimensions
+  favicon = "img/favicon.png"
+  dateFormat = "January 2, 2006"
+  commit = false
+  rss = false
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = false
+  delayDisqus = true
+  showRelatedPosts = true
+  hideAuthor = true
+#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+
+
+[[Params.bigimg]]
+  src = "img/background.jpg"
+  desc = "Eris"
+  # position: see values of CSS background-position.
+  position = "center top"
+
+
+
+[Author]
+    name = "MomoTori"
+    bio = "test"
+    avatar = "img/avatar.jpg"
+    email = "taoyang_2002@mail.ustc.edu.cn"
+    github = "Momo-Tori"
+    twitter = "MomoTori7"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "page/about/"
+    weight = 5
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 4
+
+[[menu.main]]
+    name = "Categories"
+    url = "categories"
+    weight = 3
+
+[[menu.main]]
+    name = "ACG"
+    identifier = "acg"
+    weight = 2
+
+[[menu.main]]
+    parent = "acg"
+    name = "Watching/ed"
+    url = "page/acg"
+    weight = 1
+
+[[menu.main]]
+    parent = "acg"
+    name = "Waifu"
+    url = "page/waifu"
+    weight = 2
