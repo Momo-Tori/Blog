@@ -277,28 +277,28 @@ Hugo永远滴神，比Hexo高到不知道哪里去了（引战打死">
 <p><strong>首先的首先：</strong>
 Hugo永远滴神，比Hexo高到不知道哪里去了（引战打死</p>
 <h2 id="为什么要建立这个博客">为什么要建立这个博客</h2>
-<p>一年前就知道科大有个FTP服务器可以用了，可是因为知识原因，不了解HTML和CSS等网络相关的语言，所以一直没有动手
-直到最近看了点相关书籍，觉得自己可以了，就动手搭建了现在这个博客。虽然说技术含量那是低低的，不过不耽误这个博客确实挺好康ww</p>
-<p>至于主观能动性啥的，果然有个博客才有互联网从业人员内味吧（逃
-而且建站的过程确实挺有意思，不算上Hexo的折磨时光的话</p>
+<p>一年前就知道科大有个FTP服务器可以用了，可是因为知识原因，不了解HTML和CSS等网络相关的语言，所以一直没有动手</p>
+<p>直到最近看了点相关书籍，觉得自己可以了，就动手搭建了现在这个博客。虽然说技术含量那是低低的，不过不耽误这个博客确实挺好康ww</p>
+<p>至于主观能动性啥的，果然有个博客才有互联网从业人员内味吧（逃</p>
+<p>而且建站的过程确实挺有意思，不算上Hexo的折磨时光的话</p>
 <h2 id="之后会发什么内容">之后会发什么内容</h2>
-<p>因为有计划之后使用Markdown语言来做笔记，所以之后可能会把markdown的笔记分享到网站上
-以及老本行不能丢，会发一些关于ACG的个人感想以及杂谈</p>
+<p>因为有计划之后使用Markdown语言来做笔记，所以之后可能会把markdown的笔记分享到网站上</p>
+<p>以及老本行不能丢，会发一些关于ACG的个人感想以及杂谈</p>
 <h2 id="技术记叙">技术记叙</h2>
 <p>这个模块大概记录我建立博客的一些过程，供有兴趣的小伙伴参考</p>
 <h3 id="博客环境">博客环境</h3>
-<p>因为科大自带ftp服务器，所以只需要选择博客的框架即可
-我一开始选择的是Hexo，但因为在使用Hexo的过程中从安装NodeJS开始就频繁出现奇怪的提示和错误，直到后面实在受不了了连夜卸载转用Hugo</p>
+<p>因为科大自带ftp服务器，所以只需要选择博客的框架即可</p>
+<p>我一开始选择的是Hexo，但因为在使用Hexo的过程中从安装NodeJS开始就频繁出现奇怪的提示和错误，直到后面实在受不了了连夜卸载转用Hugo</p>
 <h4 id="hugo安装">Hugo安装</h4>
 <p>首先是Hugo的安装，在linux下直接利用apt包管理器即可</p>
 <div class="highlight"><pre class="chroma"><code class="language-Bash" data-lang="Bash">sudo apt install hugo
 </code></pre></div><h4 id="git与git-ftp的安装">Git与Git-ftp的安装</h4>
-<p>在这之后为了能够自动部署到科大的ftp服务器，查阅资料后选择使用git-ftp
-需要提醒的是如果没有git则需要先安装git</p>
+<p>在这之后为了能够自动部署到科大的ftp服务器，查阅资料后选择使用git-ftp</p>
+<p>需要提醒的是如果没有git则需要先安装git</p>
 <div class="highlight"><pre class="chroma"><code class="language-Bash" data-lang="Bash">sudo apt install git
 sudo apt install git-ftp
-</code></pre></div><p>git设置相关搜索引擎上到处都是，不再赘述，具体说明git-ftp的设置
-在博客文件夹中启动命令行，使用git命令来添加设置</p>
+</code></pre></div><p>git设置相关搜索引擎上到处都是，不再赘述，具体说明git-ftp的设置</p>
+<p>在博客文件夹中启动命令行，使用git命令来添加设置</p>
 <div class="highlight"><pre class="chroma"><code class="language-Bash" data-lang="Bash">git config git-ftp.url ftp.example.net
 git config git-ftp.user ftp-user
 git config git-ftp.password secr3t
@@ -318,19 +318,20 @@ git config git-ftp.remote-root htdocs
 远程目录，上传到ftp服务器的哪个文件夹。需要注意的是科大ftp服务器貌似需要把文件放在根目录的<code>/public_html/</code>下才能访问。</li>
 </ul>
 <h4 id="git-ftp的使用">Git-ftp的使用</h4>
-<p>第一次要先<code>git ftp init</code>
-之后更新在<code>git commit</code>后启动<code>git ftp push</code>即可</p>
+<p>第一次要先<code>git ftp init</code></p>
+<p>之后更新在<code>git commit</code>后启动<code>git ftp push</code>即可</p>
 <div class="highlight"><pre class="chroma"><code class="language-bash" data-lang="bash">git add ./public/
 git commit -m <span class="s2">&#34;update&#34;</span>
 git ftp push
 </code></pre></div><h3 id="博客设置">博客设置</h3>
-<p>目前没有增加很多插件，最主要还是普通的网页排版
-不过有用到一个小方法来帮助网页排版，就是使用到Hugo的shortcodes的特性
-首先Hugo解析你的markdown文件的时候是不支持html解析的，也就是说你的所有html语法全部都木大了
-所以为了能够在md文件中使用html语法，在根目录的新建如下文件<code>./layouts/shortcodes/raw.html</code>并在里面添加下面语块即可</p>
+<p>目前没有增加很多插件，最主要还是普通的网页排版</p>
+<p>不过有用到一个小方法来帮助网页排版，就是使用到Hugo的shortcodes的特性</p>
+<p>首先Hugo解析你的markdown文件的时候是不支持html解析的，也就是说你的所有html语法全部都木大了</p>
+<p>所以为了能够在md文件中使用html语法，在根目录的新建如下文件<code>./layouts/shortcodes/raw.html</code>并在里面添加下面语块即可</p>
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html">{{ .Inner }}
 </code></pre></div><p>使用方法就是在markdown需要用到html的地方的前后加上（为防止触发语法加入了&rdquo;&quot;,使用时请把&rdquo;&quot;去掉</p>
-<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">\{\{&lt;raw&gt;\}\}
+<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">
+\{\{&lt;raw&gt;\}\}
 
 &lt;!-- 你的html语法 --&gt;
 
