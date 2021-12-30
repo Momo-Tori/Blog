@@ -6,7 +6,7 @@ comments: false
 
 ## 正在观赏/游玩
 {{<raw>}}
-<div style="float:left"><img width="220px" src="https://img.moegirl.org.cn/common/b/b5/%E6%97%A0%E8%81%8C%E8%BD%AC%E7%94%9F%E7%AC%AC%E4%B8%80%E5%8D%B7%E5%B0%81%E9%9D%A2.jpg" referrerpolicy="no-referrer"></div>
+<div style="float:left"><img width="220rem" src="https://img.moegirl.org.cn/common/b/b5/%E6%97%A0%E8%81%8C%E8%BD%AC%E7%94%9F%E7%AC%AC%E4%B8%80%E5%8D%B7%E5%B0%81%E9%9D%A2.jpg" referrerpolicy="no-referrer"></div>
 <div>
     <table class="DisTable" width="500px">
     <tbody>
@@ -29,7 +29,7 @@ comments: false
 
 
 {{<raw>}}
-<div style="float:left"><img width="220px" src="https://img.eekgame.com/user_files/1/bbs/94346025_1637476287.jpg" referrerpolicy="no-referrer"></div>
+<div style="float:left"><img width="220rem" src="https://img.eekgame.com/user_files/1/bbs/94346025_1637476287.jpg" referrerpolicy="no-referrer"></div>
 <div>
     <table class="DisTable" width="500px">
     <tbody>
@@ -52,7 +52,7 @@ comments: false
 {{<raw>}}
 
 
-<div style="float:left"><img width="220px" src="https://img.moegirl.org.cn/common/7/75/Hollow_knight_cover.jpg" referrerpolicy="no-referrer"></div>
+<div style="float:left"><img width="220rem" src="https://img.moegirl.org.cn/common/7/75/Hollow_knight_cover.jpg" referrerpolicy="no-referrer"></div>
 <div>
     <table class="DisTable" width="500px">
     <tbody>

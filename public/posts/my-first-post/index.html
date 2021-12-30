@@ -329,7 +329,7 @@ git ftp push
 <p>首先Hugo解析你的markdown文件的时候是不支持html解析的，也就是说你的所有html语法全部都木大了</p>
 <p>所以为了能够在md文件中使用html语法，在根目录的新建如下文件<code>./layouts/shortcodes/raw.html</code>并在里面添加下面语块即可</p>
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html">{{ .Inner }}
-</code></pre></div><p>使用方法就是在markdown需要用到html的地方的前后加上（为防止触发语法加入了&rdquo;\&quot;,使用时请把&rdquo;\&ldquo;去掉</p>
+</code></pre></div><p>使用方法就是在markdown需要用到html的地方的前后加上（为防止触发语法加入了“\”,使用时请把“\”去掉）</p>
 <div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">
 \{\{&lt;raw&gt;\}\}
 
@@ -337,7 +337,7 @@ git ftp push
 
 \{\{&lt;/raw&gt;\}\}
 </code></pre></div><p>原理猜测大概就是把包含起来的部分直接插入最后生成的html文件中</p>
-<p>关于ACG两个子网站的风格有参考<a href="URL" title="https://yuc.wiki/">YuC&rsquo;s AnimeList</a>，之后手搓（以及复制）css文件，得到现在的样子</p>
+<p>关于ACG两个子网站的风格有参考<a href="https://yuc.wiki/" title="https://yuc.wiki/">YuC&rsquo;s AnimeList</a>，之后手搓（以及复制）css文件，得到现在的样子</p>
 <h2 id="总结">总结</h2>
 <p>摸了没有总结，整了好几天了才搞成现在这个样子，直接进行一个鱼的摸</p>
 

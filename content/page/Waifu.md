@@ -5,16 +5,16 @@ comments: false
 ---
 
 {{<raw>}}
-<div style="float:left"><img width="220px" src="https://img.moegirl.org.cn/common/a/a4/Erisu_Young.jpg" referrerpolicy="no-referrer"></div>
+<div style="float:left"><img width="220rem" src="https://img.moegirl.org.cn/common/a/a4/Erisu_Young.jpg" referrerpolicy="no-referrer"></div>
 <div>
     <table class="DisTable" width="500px">
     <tbody>
         <div class="name">
-                <p class="name_cn">艾莉丝·伯雷亚斯·格雷拉特</p>
-                <p class="name_jp">エリス・ボレアス・グレイラット</p>
+            <p class="name_cn">艾莉丝·伯雷亚斯·格雷拉特</p>
+            <p class="name_jp">エリス・ボレアス・グレイラット</p>
         </div>
         <div>
-        <p class="description">
+            <p class="description">
 作品：《无职转生～到了异世界就拿出真本事～》<br>
 cv：加隈亚衣
 <br><br>

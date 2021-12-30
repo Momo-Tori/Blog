@@ -105,7 +105,7 @@ git ftp push
 {{ .Inner }}
 ```
 
-使用方法就是在markdown需要用到html的地方的前后加上（为防止触发语法加入了"\\",使用时请把"\\"去掉
+使用方法就是在markdown需要用到html的地方的前后加上（为防止触发语法加入了“\\”,使用时请把“\\”去掉）
 
 ```markdown
 
@@ -118,7 +118,7 @@ git ftp push
 
 原理猜测大概就是把包含起来的部分直接插入最后生成的html文件中
 
-关于ACG两个子网站的风格有参考[YuC's AnimeList](URL 'https://yuc.wiki/')，之后手搓（以及复制）css文件，得到现在的样子
+关于ACG两个子网站的风格有参考[YuC's AnimeList](https://yuc.wiki/ 'https://yuc.wiki/')，之后手搓（以及复制）css文件，得到现在的样子
 
 ## 总结
 摸了没有总结，整了好几天了才搞成现在这个样子，直接进行一个鱼的摸
