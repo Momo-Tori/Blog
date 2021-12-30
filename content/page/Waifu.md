@@ -7,8 +7,6 @@ comments: false
 {{<raw>}}
 <div style="float:left"><img width="220rem" src="https://img.moegirl.org.cn/common/a/a4/Erisu_Young.jpg" referrerpolicy="no-referrer"></div>
 <div>
-    <table class="DisTable" width="500px">
-    <tbody>
         <div class="name">
             <p class="name_cn">艾莉丝·伯雷亚斯·格雷拉特</p>
             <p class="name_jp">エリス・ボレアス・グレイラット</p>
@@ -23,8 +21,6 @@ cv：加隈亚衣
 有拔群的剑术才能，相反的魔法才能和学习能力很低下。<br>
             </p>
         </div>
-    </tbody>
-    </table>
 </div>
 <div style="clear:both"></div>
 {{</raw>}}
