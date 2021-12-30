@@ -5,14 +5,15 @@ comments: false
 ---
 
 ## 正在观赏/游玩
+
 {{<raw>}}
-<div style="float:left"><img width="220rem" src="https://img.moegirl.org.cn/common/b/b5/%E6%97%A0%E8%81%8C%E8%BD%AC%E7%94%9F%E7%AC%AC%E4%B8%80%E5%8D%B7%E5%B0%81%E9%9D%A2.jpg" referrerpolicy="no-referrer"></div>
+<div style="float:left"><img width="150rem" src="https://img.moegirl.org.cn/common/b/b5/%E6%97%A0%E8%81%8C%E8%BD%AC%E7%94%9F%E7%AC%AC%E4%B8%80%E5%8D%B7%E5%B0%81%E9%9D%A2.jpg" referrerpolicy="no-referrer"></div>
 <div>
     <table class="DisTable" width="500px">
     <tbody>
-        <div class="name">
-                <p class="name_cn">无职转生</p>
-                <p class="name_jp">無職転生</p>
+        <div class="ACGname">
+                <p class="ACGname_cn">无职转生</p>
+                <p class="ACGname_jp">無職転生</p>
         </div>
         <div>
         <p class="description">
@@ -29,13 +30,13 @@ comments: false
 
 
 {{<raw>}}
-<div style="float:left"><img width="220rem" src="https://img.eekgame.com/user_files/1/bbs/94346025_1637476287.jpg" referrerpolicy="no-referrer"></div>
+<div style="float:left"><img width="150rem" src="https://img.eekgame.com/user_files/1/bbs/94346025_1637476287.jpg" referrerpolicy="no-referrer"></div>
 <div>
     <table class="DisTable" width="500px">
     <tbody>
-        <div class="name">
-                <p class="name_cn">小白兔电商</p>
-                <p class="name_jp">Bunny e-shop</p>
+        <div class="ACGname">
+                <p class="ACGname_cn">小白兔电商</p>
+                <p class="ACGname_jp">Bunny e-shop</p>
         </div>
         <div>
         <p class="description">
@@ -49,16 +50,15 @@ comments: false
 {{</raw>}}
 
 ## 已完成
+
 {{<raw>}}
-
-
-<div style="float:left"><img width="220rem" src="https://img.moegirl.org.cn/common/7/75/Hollow_knight_cover.jpg" referrerpolicy="no-referrer"></div>
+<div style="float:left"><img width="150rem" src="https://img.moegirl.org.cn/common/7/75/Hollow_knight_cover.jpg" referrerpolicy="no-referrer"></div>
 <div>
     <table class="DisTable" width="500px">
     <tbody>
-        <div class="name">
-                <p class="name_cn">空洞骑士</p>
-                <p class="name_jp">Hollow Knight</p>
+        <div class="ACGname">
+                <p class="ACGname_cn">空洞骑士</p>
+                <p class="ACGname_jp">Hollow Knight</p>
         </div>
         <div>
         <p class="description">
