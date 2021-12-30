@@ -19,16 +19,18 @@
 
 .ACGname{
     background-color: #333333;
-    line-height: 0.5em;
+    line-height: 1.25em;
+    padding-top: 0.25em;
+    padding-left: 0.5em;
 }
 
 .ACGname_cn{
-    font-size:2.2em;
+    font-size:1.8em;
     color: #f0f0f0;
 }
 
 .ACGname_jp{
-    font-size:1.6em;
+    font-size:1.4em;
     color: #f0f0f0;
 }
 
