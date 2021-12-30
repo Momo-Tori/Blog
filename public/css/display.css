@@ -25,11 +25,13 @@
 }
 
 .ACGname_cn{
+    line-height: 1.25em;
     font-size:1.8em;
     color: #f0f0f0;
 }
 
 .ACGname_jp{
+    line-height: 1.25em;
     font-size:1.4em;
     color: #f0f0f0;
 }
