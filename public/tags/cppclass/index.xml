@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on MomoTori的博客</title>
-    <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/</link>
-    <description>Recent content in Posts on MomoTori的博客</description>
+    <title>CppClass on MomoTori的博客</title>
+    <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/cppclass/</link>
+    <description>Recent content in CppClass on MomoTori的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>taoyang_2002@mail.ustc.edu.cn (MomoTori)</managingEditor>
     <webMaster>taoyang_2002@mail.ustc.edu.cn (MomoTori)</webMaster>
     <lastBuildDate>Fri, 31 Dec 2021 11:52:07 +0800</lastBuildDate>
     
-	<atom:link href="http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/cppclass/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,17 +21,6 @@
       <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/pointers-to-members/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://pic1.zhimg.com/v2-2ea2c7e8ef116d4aa8830ff1a9ce4922_1440w.jpg?source=172ae18b&#34; alt=&#34;Eris&#34;&gt;&lt;/p&gt;
 &lt;p&gt;害人不浅的类成员函数指针，模拟电梯做了这么久它功不可没&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>第一篇博客，兼记录部分搭建过程</title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/my-first-post/</link>
-      <pubDate>Wed, 29 Dec 2021 22:01:26 +0800</pubDate>
-      <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/my-first-post/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://home.ustc.edu.cn/~taoyang_2002/blog/public/~taoyang_2002/blog/public/img/blog/eris1.jpg&#34; alt=&#34;eris&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;首先的首先：&lt;/strong&gt;
-Hugo永远滴神，比Hexo高到不知道哪里去了（引战打死&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -8,10 +8,37 @@
     <language>zh-cn</language>
     <managingEditor>taoyang_2002@mail.ustc.edu.cn (MomoTori)</managingEditor>
     <webMaster>taoyang_2002@mail.ustc.edu.cn (MomoTori)</webMaster>
-    <lastBuildDate>Wed, 29 Dec 2021 22:01:26 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 31 Dec 2021 11:52:07 +0800</lastBuildDate>
     
 	<atom:link href="http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cpp</title>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/cpp/</link>
+      <pubDate>Fri, 31 Dec 2021 11:52:07 +0800</pubDate>
+      <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/cpp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CppClass</title>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/cppclass/</link>
+      <pubDate>Fri, 31 Dec 2021 11:52:07 +0800</pubDate>
+      <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/cppclass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ModernCpp</title>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/moderncpp/</link>
+      <pubDate>Fri, 31 Dec 2021 11:52:07 +0800</pubDate>
+      <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/moderncpp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hugo</title>

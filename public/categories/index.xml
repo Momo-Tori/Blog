@@ -8,10 +8,19 @@
     <language>zh-cn</language>
     <managingEditor>taoyang_2002@mail.ustc.edu.cn (MomoTori)</managingEditor>
     <webMaster>taoyang_2002@mail.ustc.edu.cn (MomoTori)</webMaster>
-    <lastBuildDate>Wed, 29 Dec 2021 22:01:26 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 31 Dec 2021 11:52:07 +0800</lastBuildDate>
     
 	<atom:link href="http://home.ustc.edu.cn/~taoyang_2002/blog/public/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cpp学习笔记</title>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/categories/cpp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Fri, 31 Dec 2021 11:52:07 +0800</pubDate>
+      <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/categories/cpp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>建站笔记</title>
