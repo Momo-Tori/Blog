@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>re on MomoTori的博客</title>
+    <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/re/</link>
+    <description>Recent content in re on MomoTori的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <managingEditor>taoyang_2002@mail.ustc.edu.cn (MomoTori)</managingEditor>
+    <webMaster>taoyang_2002@mail.ustc.edu.cn (MomoTori)</webMaster>
+    <lastBuildDate>Wed, 09 Feb 2022 16:29:08 +0800</lastBuildDate>
+    
+	<atom:link href="http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/re/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>正则表达式</title>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/re/</link>
+      <pubDate>Wed, 09 Feb 2022 16:29:08 +0800</pubDate>
+      <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/re/</guid>
+      <description>语法 正则表达式描述了一种字符串匹配度的模式（pattern），其由普通字符以及特殊字符（称为“元字符”）组成，描述在搜索文本时要匹配的一个或多个字符串
+普通字符 普通字符是没有显式指定为元字符的所有字符，即可见的字符
+   字符 描述     [ABC] 匹配[...]中的所有字符，即方括号内的一个集合，对应原字符串的一个字符   [^ABC] 匹配除了[...]内字符外的所有字符，即方括号内的一个补集   [A-Z] 匹配一个区间   . 匹配除了换行符(\r,\n)外的任意单个字符   [\s\S] 匹配所有。\s是所有空白符，包括换行，\S是非空白符   \w 匹配字母、数字、下划线   \W 匹配字母、数字、下划线的补集，大写和小写互为补集，下不表   \s 匹配任意空白字符，等价于[\t\n\r\f]   \d 匹配数字，[0-9]    特殊字符 带有特殊含义的字符，若要匹配原本的字符需要特殊转义的字符，若要匹配***则需要字符模式为\*\*\*
+   特殊字符 描述     $ 匹配输入字符串的结尾位置   () 标记一个子表达式（括号的一般作用）   * 匹配前面的子表达式零次或多次   + 匹配前面的子表达式一次或多次   .</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -74,9 +74,9 @@ error: invalid use of non-static member function
 
 std::invoke是定义在头文件\<functional\>，需要C++17特性的函数
 
-参数：
-invoke( F&& f, Args&&... args )
-f	-	要调用的可调用 (Callable) 对象
+参数：  
+invoke( F&& f, Args&&... args )  
+f	-	要调用的可调用 (Callable) 对象  
 args	-	传递给 f 的参数
 
 返回值：
@@ -86,7 +86,7 @@ f 返回的值
 > * If f is a pointer to member function of class T:
 If std::is_base_of<T, std::decay_t<decltype(t1)>>::value is true, then INVOKE(f, t1, t2, ..., tN) is equivalent to (t1.*f)(t2, ..., tN)
 
->来自[https://en.cppreference.com/w/cpp/utility/functional/invoke](https://en.cppreference.com/w/cpp/utility/functional/invoke)，有删减
+>来自<https://en.cppreference.com/w/cpp/utility/functional/invoke>，有删减
 
 这里是第一种假设的第一种情况，也就是说当f是指向“类成员函数指针”的指针，第一个参数t1是要使用函数的类，那么std::invoke(f, t1, t2, ..., tN)就等价于(t1.*f)(t2, ..., tN)，这样就实现了函数的调用
 
@@ -137,7 +137,7 @@ int main()
 
 扔个网址就润
 
-[https://zhuanlan.zhihu.com/p/366654169](https://zhuanlan.zhihu.com/p/366654169)
+<https://zhuanlan.zhihu.com/p/366654169>
 
 ### 使用函数类
 
@@ -156,7 +156,7 @@ class MyClass {
 }
 ```
 
-> 摘自[https://stackoverflow.com/a/1902321](https://stackoverflow.com/a/1902321)
+> 摘自<https://stackoverflow.com/a/1902321>
 
 此时传递进去的是一个类对象，但是这个对象可以在后面加上括号后调用函数，和一个函数名或函数指针没有区别
 
@@ -180,8 +180,7 @@ class Myclass {
 ```
 > 因为通过按值捕获或按引用捕获，lambda可以获取到外部那个看不见的this指针，因此在添加捕获设置之后，调用cmp相当于是在调用this->cmp，自然也可以通过编译。这种方式确实要比std::bind的可读性更好，且更易用，也是Scott Meyers所推崇的方式。
 
-> 来自[https://zhuanlan.zhihu.com/p/366654169](https://zhuanlan.zhihu.com/p/366654169)
-
+> 来自<https://zhuanlan.zhihu.com/p/366654169>
 ## 事后
 
 本来要写实验报告的我因为linux编译失败而去寻找改进方法，然后我依次找到了后面几种方法，感觉这是一个水实验报告的好机会

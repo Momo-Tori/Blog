@@ -8,10 +8,37 @@
     <language>zh-cn</language>
     <managingEditor>taoyang_2002@mail.ustc.edu.cn (MomoTori)</managingEditor>
     <webMaster>taoyang_2002@mail.ustc.edu.cn (MomoTori)</webMaster>
-    <lastBuildDate>Fri, 31 Dec 2021 11:52:07 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 09 Feb 2022 16:29:08 +0800</lastBuildDate>
     
 	<atom:link href="http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>python</title>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/python/</link>
+      <pubDate>Wed, 09 Feb 2022 16:29:08 +0800</pubDate>
+      <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>re</title>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/re/</link>
+      <pubDate>Wed, 09 Feb 2022 16:29:08 +0800</pubDate>
+      <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/re/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gal</title>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/gal/</link>
+      <pubDate>Wed, 09 Feb 2022 16:19:56 +0800</pubDate>
+      <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/gal/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cpp</title>
