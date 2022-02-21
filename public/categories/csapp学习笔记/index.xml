@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on MomoTori的博客</title>
-    <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/</link>
-    <description>Recent content in Posts on MomoTori的博客</description>
+    <title>CSAPP学习笔记 on MomoTori的博客</title>
+    <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/categories/csapp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+    <description>Recent content in CSAPP学习笔记 on MomoTori的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <managingEditor>taoyang_2002@mail.ustc.edu.cn (MomoTori)</managingEditor>
     <webMaster>taoyang_2002@mail.ustc.edu.cn (MomoTori)</webMaster>
-    <lastBuildDate>Wed, 09 Feb 2022 16:29:08 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 31 Dec 2021 11:52:07 +0800</lastBuildDate>
     
-	<atom:link href="http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://home.ustc.edu.cn/~taoyang_2002/blog/public/categories/csapp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>正则表达式</title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/re/</link>
-      <pubDate>Wed, 09 Feb 2022 16:29:08 +0800</pubDate>
-      <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/re/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>安利安利小白兔电商</title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/%E5%B0%8F%E7%99%BD%E5%85%94%E7%94%B5%E5%95%86/</link>
-      <pubDate>Wed, 09 Feb 2022 16:19:56 +0800</pubDate>
-      <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/%E5%B0%8F%E7%99%BD%E5%85%94%E7%94%B5%E5%95%86/</guid>
-      <description>&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Warning&lt;/strong&gt;  本文大概无剧透，但带有巨大&lt;strong&gt;主观&lt;/strong&gt;观点，请酌情观看&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&amp;ldquo;那个世界是&lt;br&gt;
-一个不管是人还是妖怪，都可以全面自由发展的社会。&amp;rdquo;&lt;/p&gt;
-&lt;/blockquote&gt;</description>
-    </item>
     
     <item>
       <title>存储器结构体系</title>
@@ -62,27 +38,6 @@ int sumarrayrows(int a[M][N]) { int i,j,sum=0; for(i=0;i&amp;lt;M;i++) for(j=0;j
 高速缓存存储器 本节讲述一个通用高速缓存如何进行命中与不命中的判断
 对于一个字节数据的地址如上图所示，对于一个高速缓存，可以将其划分为三个部分，标记部分（tag）、集索引（set index）和块索引（block index），这三个标记与下面这张高速缓存结构图各个对应
 自顶而下进行分析</description>
-    </item>
-    
-    <item>
-      <title>类成员函数指针传参问题</title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/pointers-to-members/</link>
-      <pubDate>Fri, 31 Dec 2021 11:52:07 +0800</pubDate>
-      <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/pointers-to-members/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://pic1.zhimg.com/v2-2ea2c7e8ef116d4aa8830ff1a9ce4922_1440w.jpg?source=172ae18b&#34; alt=&#34;Eris&#34;&gt;&lt;/p&gt;
-&lt;p&gt;害人不浅的类成员函数指针，模拟电梯做了这么久它功不可没&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>第一篇博客，兼记录部分搭建过程</title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/my-first-post/</link>
-      <pubDate>Wed, 29 Dec 2021 22:01:26 +0800</pubDate>
-      <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/my-first-post/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://home.ustc.edu.cn/~taoyang_2002/blog/public/~taoyang_2002/blog/public/img/blog/eris1.jpg&#34; alt=&#34;eris&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;首先的首先：&lt;/strong&gt;
-Hugo永远滴神，比Hexo高到不知道哪里去了（引战打死&lt;/p&gt;</description>
     </item>
     
   </channel>
