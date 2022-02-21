@@ -1,6 +1,6 @@
 ---
 title: "存储器结构体系"
-date: 2022-2-21T23:26:47+08:00
+date: 2022-02-21T23:28:24+08:00
 tags: ["CSAPP","Memory"]
 categories: ["CSAPP学习笔记"]
 ---

@@ -8,6 +8,7 @@
     <language>zh-cn</language>
     <managingEditor>taoyang_2002@mail.ustc.edu.cn (MomoTori)</managingEditor>
     <webMaster>taoyang_2002@mail.ustc.edu.cn (MomoTori)</webMaster>
+    <lastBuildDate>Mon, 21 Feb 2022 23:28:24 +0800</lastBuildDate>
     
 	<atom:link href="http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/memory/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +16,7 @@
     <item>
       <title>存储器结构体系</title>
       <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/csapp/memory/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 21 Feb 2022 23:28:24 +0800</pubDate>
       <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
       <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/csapp/memory/</guid>
       <description>&lt;p&gt;本文摘抄自CSAPP第六章，主要讲述了存储器结构体系以及如何对应这个体系编写程序&lt;/p&gt;</description>
