@@ -91,11 +91,11 @@ int sumarrayrows(int a[M][N])
 
 本节讲述一个通用高速缓存如何进行命中与不命中的判断
 
-![memory1](img/memory2.png)
+![memory2](img/memory2.png)
 
 对于一个字节数据的地址如上图所示，对于一个高速缓存，可以将其划分为三个部分，标记部分（tag）、集索引（set index）和块索引（block index），这三个标记与下面这张高速缓存结构图各个对应
 
-![memory1](img/memory3.png)
+![memory3](img/memory3.png)
 
 自顶而下进行分析
 - 一个高速缓存存储器分有$2^s$个集（set），因为上面所说的子集策略，可以用地址集索引部分对选择对应的集

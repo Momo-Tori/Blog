@@ -44,7 +44,7 @@
         "@type": "ListItem",
         "position": 3,
         "item": {
-          "@id": "http:\/\/home.ustc.edu.cn\/~taoyang_2002\/blog\/public\/posts\/csapp\/memory\/",
+          "@id": "http:\/\/home.ustc.edu.cn\/~taoyang_2002\/blog\/public\/posts\/%E5%AD%98%E5%82%A8%E5%99%A8%E7%BB%93%E6%9E%84%E4%BD%93%E7%B3%BB\/",
           "name": "存储器结构体系"
         }
     }]
@@ -64,7 +64,7 @@
   "dateModified" : "2022-02-21T23:28:24",
   "image" : "http:\/\/home.ustc.edu.cn\/~taoyang_2002\/blog\/public\/img\/avatar.jpg",
   "keywords" : [ "CSAPP, Memory" ],
-  "mainEntityOfPage" : "http:\/\/home.ustc.edu.cn\/~taoyang_2002\/blog\/public\/posts\/csapp\/memory\/",
+  "mainEntityOfPage" : "http:\/\/home.ustc.edu.cn\/~taoyang_2002\/blog\/public\/posts\/%E5%AD%98%E5%82%A8%E5%99%A8%E7%BB%93%E6%9E%84%E4%BD%93%E7%B3%BB\/",
   "publisher" : {
     "@type": "Organization",
     "name" : "http:\/\/home.ustc.edu.cn\/~taoyang_2002\/blog\/public\/",
@@ -81,7 +81,7 @@
 <meta property="og:title" content="存储器结构体系" />
 <meta property="og:description" content="本文摘抄自CSAPP第六章，主要讲述了存储器结构体系以及如何对应这个体系编写程序">
 <meta property="og:image" content="http://home.ustc.edu.cn/~taoyang_2002/blog/public/img/avatar.jpg" />
-<meta property="og:url" content="http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/csapp/memory/" />
+<meta property="og:url" content="http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/%E5%AD%98%E5%82%A8%E5%99%A8%E7%BB%93%E6%9E%84%E4%BD%93%E7%B3%BB/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="MomoTori的博客" />
 
@@ -318,9 +318,9 @@
 <p>这种替换策略可能会造成一种不命中，称为<strong>冲突不命中</strong>，在这种情况中，缓存足够包含整个工作集，但因为映射导致一直不命中</p>
 <h2 id="高速缓存存储器">高速缓存存储器</h2>
 <p>本节讲述一个通用高速缓存如何进行命中与不命中的判断</p>
-<p><img src="img/memory2.png" alt="memory1"></p>
+<p><img src="img/memory2.png" alt="memory2"></p>
 <p>对于一个字节数据的地址如上图所示，对于一个高速缓存，可以将其划分为三个部分，标记部分（tag）、集索引（set index）和块索引（block index），这三个标记与下面这张高速缓存结构图各个对应</p>
-<p><img src="img/memory3.png" alt="memory1"></p>
+<p><img src="img/memory3.png" alt="memory3"></p>
 <p>自顶而下进行分析</p>
 <ul>
 <li>一个高速缓存存储器分有$2^s$个集（set），因为上面所说的子集策略，可以用地址集索引部分对选择对应的集</li>
