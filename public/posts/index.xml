@@ -38,33 +38,6 @@
     </item>
     
     <item>
-      <title>存储器结构体系</title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/csapp/memory/</link>
-      <pubDate>Fri, 31 Dec 2021 11:52:07 +0800</pubDate>
-      <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/csapp/memory/</guid>
-      <description>局部性 良好的局部性（locality）指的是，一个程序倾向于引用临近于其他最近引用过的数据项的数据项（即数据项的周围的数据项），或者该数据项本身
-局部性通常有两种不同的形式：时间局部性（temporal locality）和空间局部性（spatial locality）。时间局部性指被引用过的一段内存在未来可能多次被引用，空间局部性指被引用过的一段内存的周围内存在不久后接着被引用
-对程序引用的局部性 int sumvec(int v[N]) { int i,sum=0; for(i=0;i&amp;lt;N;i++) sum+=v[i]; return sum; } 对于这个函数的局部性分析，考虑sum，在每次循环中被引用一次，具有良好的时间局部性；对于向量v，其被顺序读取，具有良好的空间局部性；因此总体来说两个变量要么有良好的时间局部性要么有良好的空间局部性，故这个函数具有良好的局部性
-int sumarrayrows(int a[M][N]) { int i,j,sum=0; for(i=0;i&amp;lt;M;i++) for(j=0;j&amp;lt;N;i++) sum+=a[i][j]; return sum; } 对于多层循环，我们关注的是其最内部的循环体，因为这里发生的内存读写最频繁。上面这个函数最内层是对sum和a的调用，如第一个函数的分析，同样具有良好的局部性
-值得注意的是若交换i和j的求和顺序，根据二维数组的内存组织形式，将变为步长为N的引用模式，即两次数据引用之间内存差别N-1个元素，此时函数的局部性就大大降低了
-存储器层次结构 众所周知，不同存储技术的访问时间差异很大，以及每单位空间的成本也相差甚远，通常情况下访问速度越快的存储设备价格也就越贵。与此同时非易失性存储器（断电后信息不丢失的存储器）的访问时间要比易失性存储器长。
-根据上面存储的特征和程序的局部性可设计一套组织存储器的方法，称为存储器层次结构，如下所示
- L0 寄存器 L1 L1高速缓存，使用SRAM（静态随机存储） L2 L2高速缓存 L3 L3高速缓存 L4 主存，使用DRAM（动态随机存储） L5 本地二级存储（本地磁盘），可使用磁盘或固态硬盘SSD（两者都是闪存，为ROM） L6 远程二级存储（分布式文件系统、Web服务器）  在这个存储结构中越往上存储设备越快、越贵、越小
-缓存 一般而言，高速缓存（cache）是一个小而快速的的存储设备，对应于L1，L2以及L3三层使用SRAM的高速缓存，它们存储下一层的一部分信息，并向上一层提供自己的一部分信息，以及使用高速缓存的过程称为缓存。如今缓存的概念已被扩充，不仅在CPU和主内存之间有Cache，而且在内存和硬盘之间也有Cache（磁盘缓存），乃至在硬盘与网络之间也有某种意义上的Cache──称为Internet临时文件夹或网络内容缓存等。凡是位于速度相差较大的两种硬件之间，用于协调两者数据传输速度差异的结构，均可称之为Cache。因此在存储器层次结构之间任意两层之间均存在缓存这一过程
-存储器层次结构的中心思想是，对于第k层，位于k层更快更小的存储设备作为位于k+1层的更大更慢的存储设备的缓存。第k+1层所有存储被划分为相同的内存块，称为块（block），每个块都有唯一的地址或名字；而第k层也被划分为相同大小的块，数据都是以块为单元在k层和k+1层之间传递的。虽然任意一堆相邻层次对之间块的大小是固定的，但其他的层次对之间可以有不同的块大小
-如图1所示，第k+1层有16个块，其中第k层的4,9,14,3都是来自k+1层的缓存
-当程序需要第k+1层某个对象d时，它会先去第k层进行查询，可能会发生下面两种情况：
-1.缓存命中 即在第k层存在对象d，则可以直接从第k层中读取d
-2.缓存不命中 即第k层中不存在对象d，此时递归对第k+1层进行查询，最后结果是得到含有对象d的一个块b，则对第k层某一块f进行覆盖。这个覆盖的过程称为替换（replacing）或驱逐（evicting）。决定被覆盖的块f的是替换策略（replacement policy）。例如一种是随机选择，另一种是选择最少被使用的块
-硬件缓存通常使用一种严格的替换策略，这个策略通常将第k+1层的某个块放置在第k层的某个子集里面。例如，图1的模型里第k+1层的块i必须放在第k层的第$i%4$个块中，即k+1层的块0,块4,块8,块12都映射到底k层的块0
-这种替换策略可能会造成一种不命中，称为冲突不命中，在这种情况中，缓存足够包含整个工作集，但因为映射导致一直不命中
-高速缓存存储器 本节讲述一个通用高速缓存如何进行命中与不命中的判断
-对于一个字节数据的地址如上图所示，对于一个高速缓存，可以将其划分为三个部分，标记部分（tag）、集索引（set index）和块索引（block index），这三个标记与下面这张高速缓存结构图各个对应
-自顶而下进行分析</description>
-    </item>
-    
-    <item>
       <title>类成员函数指针传参问题</title>
       <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/pointers-to-members/</link>
       <pubDate>Fri, 31 Dec 2021 11:52:07 +0800</pubDate>
@@ -83,6 +56,15 @@ int sumarrayrows(int a[M][N]) { int i,j,sum=0; for(i=0;i&amp;lt;M;i++) for(j=0;j
       <description>&lt;p&gt;&lt;img src=&#34;http://home.ustc.edu.cn/~taoyang_2002/blog/public/~taoyang_2002/blog/public/img/blog/eris1.jpg&#34; alt=&#34;eris&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;首先的首先：&lt;/strong&gt;
 Hugo永远滴神，比Hexo高到不知道哪里去了（引战打死&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>存储器结构体系</title>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/csapp/memory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/csapp/memory/</guid>
+      <description>&lt;p&gt;本文摘抄自CSAPP第六章，主要讲述了存储器结构体系以及如何对应这个体系编写程序&lt;/p&gt;</description>
     </item>
     
   </channel>

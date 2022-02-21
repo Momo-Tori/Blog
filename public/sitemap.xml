@@ -73,27 +73,7 @@
   </url>
   
   <url>
-    <loc>http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/csapp/</loc>
-    <lastmod>2021-12-31T11:52:07+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://home.ustc.edu.cn/~taoyang_2002/blog/public/categories/csapp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2021-12-31T11:52:07+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/memory/</loc>
-    <lastmod>2021-12-31T11:52:07+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/moderncpp/</loc>
-    <lastmod>2021-12-31T11:52:07+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/csapp/memory/</loc>
     <lastmod>2021-12-31T11:52:07+08:00</lastmod>
   </url>
   
@@ -126,11 +106,27 @@
   </url>
   
   <url>
+    <loc>http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/csapp/</loc>
+  </url>
+  
+  <url>
+    <loc>http://home.ustc.edu.cn/~taoyang_2002/blog/public/categories/csapp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+  </url>
+  
+  <url>
+    <loc>http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/memory/</loc>
+  </url>
+  
+  <url>
     <loc>http://home.ustc.edu.cn/~taoyang_2002/blog/public/page/</loc>
   </url>
   
   <url>
     <loc>http://home.ustc.edu.cn/~taoyang_2002/blog/public/page/waifu/</loc>
+  </url>
+  
+  <url>
+    <loc>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/csapp/memory/</loc>
   </url>
   
 </urlset>
