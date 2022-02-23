@@ -279,7 +279,7 @@ Hugo永远滴神，比Hexo高到不知道哪里去了（引战打死</p>
 <h2 id="为什么要建立这个博客">为什么要建立这个博客</h2>
 <p>一年前就知道科大有个FTP服务器可以用了，可是因为知识原因，不了解HTML和CSS等网络相关的语言，所以一直没有动手</p>
 <p>直到最近看了点相关书籍，觉得自己可以了，就动手搭建了现在这个博客。虽然说技术含量那是低低的，不过不耽误这个博客确实挺好康ww</p>
-<p>至于主观能动性啥的，果然有个博客才有互联网从业人员内味吧（逃</p>
+<p>至于主观能动性啥的，果然有个博客才有geek内味吧（逃</p>
 <p>而且建站的过程确实挺有意思，不算上Hexo的折磨时光的话</p>
 <h2 id="之后会发什么内容">之后会发什么内容</h2>
 <p>因为有计划之后使用Markdown语言来做笔记，所以之后可能会把markdown的笔记分享到网站上</p>
@@ -353,6 +353,17 @@ git ftp push
 
         
           
+            
+          
+
+          
+                  <h4 class="see-also">See also</h4>
+                  <ul>
+                
+                
+                    <li><a href="/~taoyang_2002/blog/public/posts/%E5%A2%9E%E5%8A%A0katex%E7%9A%84%E5%BC%95%E7%94%A8%E5%BD%A2%E5%BC%8F/">增加KaTeX的引用形式</a></li>
+                
+              </ul>
 
           
         
@@ -445,7 +456,23 @@ git ftp push
 <script src="http://home.ustc.edu.cn/~taoyang_2002/blog/public/js/main.js"></script>
 <script src="http://home.ustc.edu.cn/~taoyang_2002/blog/public/js/highlight.min.js"></script>
 <script> hljs.initHighlightingOnLoad(); </script>
-<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script>
+  renderMathInElement(
+    document.body,
+    {
+      delimiters: [
+        {left: "$$", right: "$$", display: true},
+        {left: "$", right: "$", display: false},
+        {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+        {left: "\\begin{align}", right: "\\end{align}", display: true},
+        {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+        {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+        {left: "\\(", right: "\\)", display: false},
+        {left: "\\[", right: "\\]", display: true}
+      ]
+    }
+  );
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="http://home.ustc.edu.cn/~taoyang_2002/blog/public/js/load-photoswipe.js"></script>
 
 

@@ -59,7 +59,7 @@
   "headline": "存储器结构体系",
   "description" : "本文摘抄自CSAPP第六章，主要讲述了存储器结构体系以及如何对应这个体系编写程序\n",
   "inLanguage" : "en",
-  "wordCount":  82 ,
+  "wordCount":  84 ,
   "datePublished" : "2022-02-21T23:28:24",
   "dateModified" : "2022-02-21T23:28:24",
   "image" : "http:\/\/home.ustc.edu.cn\/~taoyang_2002\/blog\/public\/img\/avatar.jpg",
@@ -314,7 +314,7 @@
 <p>即在第k层存在对象d，则可以直接从第k层中读取d</p>
 <h4 id="2缓存不命中">2.缓存不命中</h4>
 <p>即第k层中不存在对象d，此时递归对第k+1层进行查询，最后结果是得到含有对象d的一个块b，则对第k层某一块f进行<strong>覆盖</strong>。这个覆盖的过程称为<strong>替换（replacing）<strong>或</strong>驱逐（evicting）</strong>。决定被覆盖的块f的是<strong>替换策略（replacement policy）</strong>。例如一种是随机选择，另一种是选择最少被使用的块</p>
-<p>硬件缓存通常使用一种严格的替换策略，这个策略通常将第k+1层的某个块放置在第k层的某个子集里面。例如，图1的模型里第k+1层的块i必须放在第k层的第$i%4$个块中，即k+1层的块0,块4,块8,块12都映射到底k层的块0</p>
+<p>硬件缓存通常使用一种严格的替换策略，这个策略通常将第k+1层的某个块放置在第k层的某个子集里面。例如，图1的模型里第k+1层的块i必须放在第k层的第$i mod 4$个块中，即k+1层的块0,块4,块8,块12都映射到底k层的块0</p>
 <p>这种替换策略可能会造成一种不命中，称为<strong>冲突不命中</strong>，在这种情况中，缓存足够包含整个工作集，但因为映射导致一直不命中</p>
 <h2 id="高速缓存存储器">高速缓存存储器</h2>
 <p>本节讲述一个通用高速缓存如何进行命中与不命中的判断</p>
@@ -366,6 +366,10 @@
               <a href="http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/re/" data-toggle="tooltip" data-placement="top" title="正则表达式">&larr; Previous Post</a>
             </li>
           
+          
+            <li class="next">
+              <a href="http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/%E5%A2%9E%E5%8A%A0katex%E7%9A%84%E5%BC%95%E7%94%A8%E5%BD%A2%E5%BC%8F/" data-toggle="tooltip" data-placement="top" title="增加KaTeX的引用形式">Next Post &rarr;</a>
+            </li>
           
         </ul>
       
@@ -446,7 +450,23 @@
 <script src="http://home.ustc.edu.cn/~taoyang_2002/blog/public/js/main.js"></script>
 <script src="http://home.ustc.edu.cn/~taoyang_2002/blog/public/js/highlight.min.js"></script>
 <script> hljs.initHighlightingOnLoad(); </script>
-<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script>
+  renderMathInElement(
+    document.body,
+    {
+      delimiters: [
+        {left: "$$", right: "$$", display: true},
+        {left: "$", right: "$", display: false},
+        {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+        {left: "\\begin{align}", right: "\\end{align}", display: true},
+        {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+        {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+        {left: "\\(", right: "\\)", display: false},
+        {left: "\\[", right: "\\]", display: true}
+      ]
+    }
+  );
+</script><script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="http://home.ustc.edu.cn/~taoyang_2002/blog/public/js/load-photoswipe.js"></script>
 
 
