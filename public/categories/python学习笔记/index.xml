@@ -8,10 +8,20 @@
     <language>zh-cn</language>
     <managingEditor>taoyang_2002@mail.ustc.edu.cn (MomoTori)</managingEditor>
     <webMaster>taoyang_2002@mail.ustc.edu.cn (MomoTori)</webMaster>
-    <lastBuildDate>Wed, 09 Feb 2022 16:29:08 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 09 Mar 2022 22:09:03 +0800</lastBuildDate>
     
 	<atom:link href="http://home.ustc.edu.cn/~taoyang_2002/blog/public/categories/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>PythonSyntax</title>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/pythonsyntax/</link>
+      <pubDate>Wed, 09 Mar 2022 22:09:03 +0800</pubDate>
+      <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/pythonsyntax/</guid>
+      <description>&lt;p&gt;从c&amp;amp;cpp的角度总结python语法，并作为工具书查询使用&lt;/p&gt;
+&lt;p&gt;大部分复制至菜鸟教程，有删减&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>正则表达式</title>
