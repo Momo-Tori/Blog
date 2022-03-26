@@ -1,12 +1,3 @@
-<!--
- * @Author: MomoTori
- * @Date: 2022-03-26 01:12:37
- * @LastEditors: MomoTori
- * @LastEditTime: 2022-03-26 12:20:34
- * @FilePath: \undefinedd:\Code Try\Blog\content\posts\Foobar同步方案\index.md
- * @Description: 
- * Copyright (c) 2022 by MomoTori, All Rights Reserved. 
--->
 ---
 title: "Foobar同步方案"
 date: 2022-03-26T01:12:37+08:00

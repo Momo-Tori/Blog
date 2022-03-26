@@ -8,10 +8,19 @@
     <language>zh-cn</language>
     <managingEditor>taoyang_2002@mail.ustc.edu.cn (MomoTori)</managingEditor>
     <webMaster>taoyang_2002@mail.ustc.edu.cn (MomoTori)</webMaster>
-    <lastBuildDate>Wed, 09 Mar 2022 22:09:03 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 26 Mar 2022 01:12:37 +0800</lastBuildDate>
     
 	<atom:link href="http://home.ustc.edu.cn/~taoyang_2002/blog/public/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Foobar同步方案</title>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/foobar%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</link>
+      <pubDate>Sat, 26 Mar 2022 01:12:37 +0800</pubDate>
+      <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/foobar%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</guid>
+      <description>&lt;p&gt;网抑云，我真的好喜欢你啊，为了你，我要用Foobar！&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>PythonSyntax</title>
@@ -84,20 +93,6 @@
       <description>&lt;p&gt;&lt;img src=&#34;http://home.ustc.edu.cn/~taoyang_2002/blog/public/~taoyang_2002/blog/public/img/blog/eris1.jpg&#34; alt=&#34;eris&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;首先的首先：&lt;/strong&gt;
 Hugo永远滴神，比Hexo高到不知道哪里去了（引战打死&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/foobar%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/foobar%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</guid>
-      <description>&lt;hr&gt;
-&lt;h2 id=&#34;categories-杂谈&#34;&gt;title: &amp;ldquo;Foobar同步方案&amp;rdquo;
-date: 2022-03-26T01:12:37+08:00
-tags: [&amp;ldquo;音乐&amp;rdquo;]
-categories: [&amp;ldquo;杂谈&amp;rdquo;]&lt;/h2&gt;
-&lt;p&gt;网抑云，我真的好喜欢你啊，为了你，我要用Foobar！&lt;/p&gt;</description>
     </item>
     
     <item>
