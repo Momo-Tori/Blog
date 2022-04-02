@@ -10,3 +10,8 @@ comments: false
 
 ### 关于名字
 **MomoTori**这个名字来自于我的圈名**鸟桃**的日语直译，虽然我的日语水平目前仍然处于小李赴日的程度，但这不妨碍我堆砌名词显得逼格更高（＞人＜；）
+
+
+{{<raw>}}
+<IMG SRC="/cgi-bin/Count.cgi?df=taoyang_2002.dat">
+{{</raw>}}
