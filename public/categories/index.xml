@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on MomoTori的博客</title>
-    <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/categories/</link>
+    <link>http://home.ustc.edu.cn/~taoyang_2002/blog/categories/</link>
     <description>Recent content in Categories on MomoTori的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
@@ -10,51 +10,51 @@
     <webMaster>taoyang_2002@mail.ustc.edu.cn (MomoTori)</webMaster>
     <lastBuildDate>Sat, 26 Mar 2022 01:12:37 +0800</lastBuildDate>
     
-	<atom:link href="http://home.ustc.edu.cn/~taoyang_2002/blog/public/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://home.ustc.edu.cn/~taoyang_2002/blog/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>杂谈</title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/categories/%E6%9D%82%E8%B0%88/</link>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/categories/%E6%9D%82%E8%B0%88/</link>
       <pubDate>Sat, 26 Mar 2022 01:12:37 +0800</pubDate>
       <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/categories/%E6%9D%82%E8%B0%88/</guid>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/categories/%E6%9D%82%E8%B0%88/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Python学习笔记</title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/categories/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/categories/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Wed, 09 Mar 2022 22:09:03 +0800</pubDate>
       <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/categories/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/categories/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     
     <item>
       <title>建站笔记</title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/categories/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/</link>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/categories/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Wed, 23 Feb 2022 17:11:33 +0800</pubDate>
       <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/categories/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/</guid>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/categories/%E5%BB%BA%E7%AB%99%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CSAPP学习笔记</title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/categories/csapp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/categories/csapp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Mon, 21 Feb 2022 23:28:24 +0800</pubDate>
       <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/categories/csapp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/categories/csapp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cpp学习笔记</title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/categories/cpp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/categories/cpp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Fri, 31 Dec 2021 11:52:07 +0800</pubDate>
       <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/categories/cpp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/categories/cpp%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     

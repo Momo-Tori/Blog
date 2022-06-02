@@ -1,4 +1,4 @@
-baseURL = "http://home.ustc.edu.cn/~taoyang_2002/blog/public/"
+baseURL = "http://home.ustc.edu.cn/~taoyang_2002/blog/"
 languageCode = "zh-cn"
 title = "MomoTori的博客"
 theme = "beautifulhugo"
@@ -29,7 +29,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [[Params.bigimg]]
   src = "img/background.jpg"
-  desc = "Eris"
+  desc = "Kud"
   # position: see values of CSS background-position.
   position = "center top"
 

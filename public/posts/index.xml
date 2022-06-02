@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on MomoTori的博客</title>
-    <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/</link>
+    <link>http://home.ustc.edu.cn/~taoyang_2002/blog/posts/</link>
     <description>Recent content in Posts on MomoTori的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
@@ -10,61 +10,61 @@
     <webMaster>taoyang_2002@mail.ustc.edu.cn (MomoTori)</webMaster>
     <lastBuildDate>Sat, 26 Mar 2022 01:12:37 +0800</lastBuildDate>
     
-	<atom:link href="http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://home.ustc.edu.cn/~taoyang_2002/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Foobar同步方案</title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/foobar%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</link>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/posts/foobar%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</link>
       <pubDate>Sat, 26 Mar 2022 01:12:37 +0800</pubDate>
       <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/foobar%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</guid>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/posts/foobar%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</guid>
       <description>&lt;p&gt;网抑云，我真的好喜欢你啊，为了你，我要用Foobar！&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>PythonSyntax</title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/pythonsyntax/</link>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/posts/pythonsyntax/</link>
       <pubDate>Wed, 09 Mar 2022 22:09:03 +0800</pubDate>
       <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/pythonsyntax/</guid>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/posts/pythonsyntax/</guid>
       <description>&lt;p&gt;从c&amp;amp;cpp的角度总结python语法，并作为工具书查询使用&lt;/p&gt;
 &lt;p&gt;大部分复制至菜鸟教程，有删减&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>增加KaTeX的引用形式</title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/%E5%A2%9E%E5%8A%A0katex%E7%9A%84%E5%BC%95%E7%94%A8%E5%BD%A2%E5%BC%8F/</link>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/posts/%E5%A2%9E%E5%8A%A0katex%E7%9A%84%E5%BC%95%E7%94%A8%E5%BD%A2%E5%BC%8F/</link>
       <pubDate>Wed, 23 Feb 2022 17:11:33 +0800</pubDate>
       <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/%E5%A2%9E%E5%8A%A0katex%E7%9A%84%E5%BC%95%E7%94%A8%E5%BD%A2%E5%BC%8F/</guid>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/posts/%E5%A2%9E%E5%8A%A0katex%E7%9A%84%E5%BC%95%E7%94%A8%E5%BD%A2%E5%BC%8F/</guid>
       <description>&lt;p&gt;本站使用主题Beautiful Hugo,其自带数字格式化引擎$\KaTeX{}$，但$\KaTeX{}$不支持两个$括住公式的语法来描述数学公式，这就导致与平常习惯及其不相符，降低码字效率&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>存储器结构体系</title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/%E5%AD%98%E5%82%A8%E5%99%A8%E7%BB%93%E6%9E%84%E4%BD%93%E7%B3%BB/</link>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/posts/%E5%AD%98%E5%82%A8%E5%99%A8%E7%BB%93%E6%9E%84%E4%BD%93%E7%B3%BB/</link>
       <pubDate>Mon, 21 Feb 2022 23:28:24 +0800</pubDate>
       <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/%E5%AD%98%E5%82%A8%E5%99%A8%E7%BB%93%E6%9E%84%E4%BD%93%E7%B3%BB/</guid>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/posts/%E5%AD%98%E5%82%A8%E5%99%A8%E7%BB%93%E6%9E%84%E4%BD%93%E7%B3%BB/</guid>
       <description>&lt;p&gt;本文摘抄自CSAPP第六章，主要讲述了存储器结构体系以及如何对应这个体系编写程序&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>正则表达式</title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/re/</link>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/posts/re/</link>
       <pubDate>Wed, 09 Feb 2022 16:29:08 +0800</pubDate>
       <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/re/</guid>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/posts/re/</guid>
       <description></description>
     </item>
     
     <item>
       <title>安利安利小白兔电商</title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/%E5%B0%8F%E7%99%BD%E5%85%94%E7%94%B5%E5%95%86/</link>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/posts/%E5%B0%8F%E7%99%BD%E5%85%94%E7%94%B5%E5%95%86/</link>
       <pubDate>Wed, 09 Feb 2022 16:19:56 +0800</pubDate>
       <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/%E5%B0%8F%E7%99%BD%E5%85%94%E7%94%B5%E5%95%86/</guid>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/posts/%E5%B0%8F%E7%99%BD%E5%85%94%E7%94%B5%E5%95%86/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Warning&lt;/strong&gt;  本文大概无剧透，但带有巨大&lt;strong&gt;主观&lt;/strong&gt;观点，请酌情观看&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -76,21 +76,21 @@
     
     <item>
       <title>类成员函数指针传参问题</title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/pointers-to-members/</link>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/posts/pointers-to-members/</link>
       <pubDate>Fri, 31 Dec 2021 11:52:07 +0800</pubDate>
       <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/pointers-to-members/</guid>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/posts/pointers-to-members/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://pic1.zhimg.com/v2-2ea2c7e8ef116d4aa8830ff1a9ce4922_1440w.jpg?source=172ae18b&#34; alt=&#34;Eris&#34;&gt;&lt;/p&gt;
 &lt;p&gt;害人不浅的类成员函数指针，模拟电梯做了这么久它功不可没&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>第一篇博客，兼记录部分搭建过程</title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/my-first-post/</link>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/posts/my-first-post/</link>
       <pubDate>Wed, 29 Dec 2021 22:01:26 +0800</pubDate>
       <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/my-first-post/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;http://home.ustc.edu.cn/~taoyang_2002/blog/public/~taoyang_2002/blog/public/img/blog/eris1.jpg&#34; alt=&#34;eris&#34;&gt;&lt;/p&gt;
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/posts/my-first-post/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://home.ustc.edu.cn/~taoyang_2002/blog/~taoyang_2002/blog/public/img/blog/eris1.jpg&#34; alt=&#34;eris&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;首先的首先：&lt;/strong&gt;
 Hugo永远滴神，比Hexo高到不知道哪里去了（引战打死&lt;/p&gt;</description>
     </item>

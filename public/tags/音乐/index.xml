@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>音乐 on MomoTori的博客</title>
-    <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/%E9%9F%B3%E4%B9%90/</link>
+    <link>http://home.ustc.edu.cn/~taoyang_2002/blog/tags/%E9%9F%B3%E4%B9%90/</link>
     <description>Recent content in 音乐 on MomoTori的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
@@ -10,15 +10,15 @@
     <webMaster>taoyang_2002@mail.ustc.edu.cn (MomoTori)</webMaster>
     <lastBuildDate>Sat, 26 Mar 2022 01:12:37 +0800</lastBuildDate>
     
-	<atom:link href="http://home.ustc.edu.cn/~taoyang_2002/blog/public/tags/%E9%9F%B3%E4%B9%90/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://home.ustc.edu.cn/~taoyang_2002/blog/tags/%E9%9F%B3%E4%B9%90/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Foobar同步方案</title>
-      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/foobar%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</link>
+      <link>http://home.ustc.edu.cn/~taoyang_2002/blog/posts/foobar%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</link>
       <pubDate>Sat, 26 Mar 2022 01:12:37 +0800</pubDate>
       <author>taoyang_2002@mail.ustc.edu.cn (MomoTori)</author>
-      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/public/posts/foobar%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</guid>
+      <guid>http://home.ustc.edu.cn/~taoyang_2002/blog/posts/foobar%E5%90%8C%E6%AD%A5%E6%96%B9%E6%A1%88/</guid>
       <description>&lt;p&gt;网抑云，我真的好喜欢你啊，为了你，我要用Foobar！&lt;/p&gt;</description>
     </item>
     
