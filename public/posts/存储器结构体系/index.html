@@ -59,7 +59,7 @@
   "headline": "存储器结构体系",
   "description" : "本文摘抄自CSAPP第六章，主要讲述了存储器结构体系以及如何对应这个体系编写程序\n",
   "inLanguage" : "en",
-  "wordCount":  84 ,
+  "wordCount":  2454 ,
   "datePublished" : "2022-02-21T23:28:24",
   "dateModified" : "2022-02-21T23:28:24",
   "image" : "http:\/\/home.ustc.edu.cn\/~taoyang_2002\/blog\/img\/avatar.jpg",
@@ -99,6 +99,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
   <link rel="stylesheet" href="http://home.ustc.edu.cn/~taoyang_2002/blog/css/highlight.min.css" /><link rel="stylesheet" href="http://home.ustc.edu.cn/~taoyang_2002/blog/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
@@ -267,6 +268,8 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
+        <h5 id="wc" style="font-size: 2rem;text-align: center;">2500 Words|Read in about 5 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+
         <p>本文摘抄自CSAPP第六章，主要讲述了存储器结构体系以及如何对应这个体系编写程序</p>
 <h2 id="局部性">局部性</h2>
 <p>良好的<strong>局部性</strong>（locality）指的是，一个程序倾向于引用临近于其他最近引用过的数据项的数据项（即数据项的周围的数据项），或者该数据项本身</p>
@@ -306,8 +309,19 @@
 <h3 id="缓存">缓存</h3>
 <p>一般而言，<strong>高速缓存</strong>（cache）是一个小而快速的的存储设备，对应于L1，L2以及L3三层使用SRAM的高速缓存，它们存储下一层的一部分信息，并向上一层提供自己的一部分信息，以及使用高速缓存的过程称为<strong>缓存</strong>。如今缓存的概念已被扩充，不仅在CPU和主内存之间有Cache，而且在内存和硬盘之间也有Cache（磁盘缓存），乃至在硬盘与网络之间也有某种意义上的Cache──称为Internet临时文件夹或网络内容缓存等。凡是位于速度相差较大的两种硬件之间，用于协调两者数据传输速度差异的结构，均可称之为Cache。因此在存储器层次结构之间任意两层之间均存在缓存这一过程</p>
 <p>存储器层次结构的中心思想是，对于第k层，位于k层更快更小的存储设备作为位于k+1层的更大更慢的存储设备的缓存。第k+1层所有存储被划分为相同的内存块，称为块（block），每个块都有唯一的地址或名字；而第k层也被划分为相同大小的块，数据都是以块为单元在k层和k+1层之间传递的。虽然任意一堆相邻层次对之间块的大小是固定的，但其他的层次对之间可以有不同的块大小</p>
-<p><img src="img/memory1.png" alt="memory1"></p>
-<!-- raw HTML omitted -->
+
+<link rel="stylesheet" href="http://home.ustc.edu.cn/~taoyang_2002/blog/css/hugo-easy-gallery.css" />
+<div class="box" style="max-width:100%">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="img/memory1.png" alt="原本这里有个缓存模型QwQ"/>
+    </div>
+    <a href="img/memory1.png" itemprop="contentUrl"></a>
+      <figcaption><h4>缓存模型</h4>
+      </figcaption>
+  </figure>
+</div>
+
 <p>如图1所示，第k+1层有16个块，其中第k层的4,9,14,3都是来自k+1层的缓存</p>
 <p>当程序需要第k+1层某个对象d时，它会先去第k层进行查询，可能会发生下面两种情况：</p>
 <h4 id="1缓存命中">1.缓存命中</h4>
@@ -318,9 +332,29 @@
 <p>这种替换策略可能会造成一种不命中，称为<strong>冲突不命中</strong>，在这种情况中，缓存足够包含整个工作集，但因为映射导致一直不命中</p>
 <h2 id="高速缓存存储器">高速缓存存储器</h2>
 <p>本节讲述一个通用高速缓存如何进行命中与不命中的判断</p>
-<p><img src="img/memory2.png" alt="memory2"></p>
+
+
+<div class="box" style="max-width:100%">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="img/memory2.png" alt="原本这里有个图QwQ"/>
+    </div>
+    <a href="img/memory2.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
 <p>对于一个字节数据的地址如上图所示，对于一个高速缓存，可以将其划分为三个部分，标记部分（tag）、集索引（set index）和块索引（block index），这三个标记与下面这张高速缓存结构图各个对应</p>
-<p><img src="img/memory3.png" alt="memory3"></p>
+
+
+<div class="box" style="max-width:100%">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="img/memory3.png" alt="原本这里有个图QwQ"/>
+    </div>
+    <a href="img/memory3.png" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
 <p>自顶而下进行分析</p>
 <ul>
 <li>一个高速缓存存储器分有$2^s$个集（set），因为上面所说的子集策略，可以用地址集索引部分对选择对应的集</li>
@@ -375,9 +409,6 @@
       
 
 
-      
-        
-        
       
 
     </div>

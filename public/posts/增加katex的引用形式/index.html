@@ -59,7 +59,7 @@
   "headline": "增加KaTeX的引用形式",
   "description" : "本站使用主题Beautiful Hugo,其自带数字格式化引擎$\\KaTeX{}$，但$\\KaTeX{}$不支持两个$括住公式的语法来描述数学公式，这就导致与平常习惯及其不相符，降低码字效率\n",
   "inLanguage" : "en",
-  "wordCount":  93 ,
+  "wordCount":  322 ,
   "datePublished" : "2022-02-23T17:11:33",
   "dateModified" : "2022-02-23T17:11:33",
   "image" : "http:\/\/home.ustc.edu.cn\/~taoyang_2002\/blog\/img\/avatar.jpg",
@@ -99,6 +99,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
   <link rel="stylesheet" href="http://home.ustc.edu.cn/~taoyang_2002/blog/css/highlight.min.css" /><link rel="stylesheet" href="http://home.ustc.edu.cn/~taoyang_2002/blog/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
@@ -267,6 +268,8 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
+        <h5 id="wc" style="font-size: 2rem;text-align: center;">400 Words|Read in about 1 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+
         <p>本站使用主题Beautiful Hugo,其自带数字格式化引擎$\KaTeX{}$，但$\KaTeX{}$不支持两个$括住公式的语法来描述数学公式，这就导致与平常习惯及其不相符，降低码字效率</p>
 <p>为此查阅资料后，在Beautiful Hugo的issue栏找到了相关的问题与解法，只需要修改<code>layouts/partials/footer.html</code></p>
 <div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html">-  {{- end -}}
@@ -336,9 +339,6 @@
       
 
 
-      
-        
-        
       
 
     </div>

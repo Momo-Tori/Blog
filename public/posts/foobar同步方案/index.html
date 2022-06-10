@@ -59,7 +59,7 @@
   "headline": "Foobar同步方案",
   "description" : "网抑云，我真的好喜欢你啊，为了你，我要用Foobar！\n",
   "inLanguage" : "en",
-  "wordCount":  47 ,
+  "wordCount":  2138 ,
   "datePublished" : "2022-03-26T01:12:37",
   "dateModified" : "2022-03-26T01:12:37",
   "image" : "http:\/\/home.ustc.edu.cn\/~taoyang_2002\/blog\/img\/avatar.jpg",
@@ -99,6 +99,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
   <link rel="stylesheet" href="http://home.ustc.edu.cn/~taoyang_2002/blog/css/highlight.min.css" /><link rel="stylesheet" href="http://home.ustc.edu.cn/~taoyang_2002/blog/css/codeblock.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
 
@@ -267,6 +268,8 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
+        <h5 id="wc" style="font-size: 2rem;text-align: center;">2200 Words|Read in about 5 Min|本文总阅读量<span id="busuanzi_value_page_pv"></span>次</h5>
+
         <p>网抑云，我真的好喜欢你啊，为了你，我要用Foobar！</p>
 <h2 id="关于网抑云吞我歌单导致我怀恨在心直到现在终于找到方案同步音乐歌单所以不再用网易云存歌单这件事">关于网抑云吞我歌单导致我怀恨在心直到现在终于找到方案同步音乐歌单所以不再用网易云存歌单这件事</h2>
 <p>众所周知网抑云下架歌曲就算了，它甚至把用户歌单内的下架歌曲不是灰了而是直接消失不见。你可能无法想象作为一个纯强迫症某一天突然发现歌单少了一堆歌是什么感受</p>
@@ -276,14 +279,36 @@
 <h2 id="初识foobox">初识Foobox</h2>
 <p>在知乎搜寻好用的本地音频播放器时，我偶然发现了Foobar2000，和国人魔改的Foobox</p>
 <p>Foobar2000是一款免费的音频播放器软件，不仅具有强大的功能，并且拥有自己的SDK供用户开发自己的插件，因此其具有相当大的插件数量和一个较好的社区氛围。而dream7180在此基础上集合主题、一些插件以及汉化之后就形成了Foobox</p>
-<p><img src="img/1.jpg" alt="主界面图片"></p>
+
+<link rel="stylesheet" href="http://home.ustc.edu.cn/~taoyang_2002/blog/css/hugo-easy-gallery.css" />
+<div class="box" style="max-width:100%">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="img/1.jpg" alt="原本这里有个主界面图片QwQ"/>
+    </div>
+    <a href="img/1.jpg" itemprop="contentUrl"></a>
+      <figcaption><h4>主界面图片</h4>
+      </figcaption>
+  </figure>
+</div>
+
 <h2 id="导入歌单">导入歌单</h2>
 <p>通过Foobox界面右上角三横点开“文件-&gt;参数选项”打开选项菜单，之后在菜单左侧选择媒体库，就可以在音乐文件夹内添加本地音乐所在的文件夹</p>
 <p>导入音乐文件后在主界面左侧新建一个播放列表，并将媒体库导入的所有歌拖入新建歌单中</p>
 <p>之后点击右上角三横“编辑-&gt;排序-&gt;排序按&hellip;”，之后在跳出的窗口中我们可以根据一定语法对歌曲进行排序，在这里因为我自己歌单和本地歌曲是修改时间顺序关系，因此语法便是<code>%last_modified%</code></p>
 <p>这样歌单就简单地完成了迁移，并且可以使用<code>ctrl+s</code>进行歌单的保存，我建议在音乐文件夹下建立子文件夹存储这个歌单fpl文件（当然也可以选择存储为m3u或m3u8文件）</p>
 <p>将本地文件和歌单文件拷贝至手机后可以使用Foobar的手机端，在设置的Media Library选项下分别选择音乐和歌单的文件夹进行导入，简单的手动同步就完成了</p>
-<p><img src="img/2.jpg" alt="手机端图片"></p>
+
+
+<div class="box" style="max-width:70%">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="img/2.jpg" alt="原本这里有个手机端图片QwQ"/>
+    </div>
+    <a href="img/2.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
 <h2 id="云端同步">云端同步</h2>
 <p>这里使用onedrive实现电脑和手机的音乐和歌单的同步</p>
 <p>在windows下，因为onedrive只能在指定的文件夹下进行同步，为了能够让onedrive同步音乐，我们选择在onedrive文件夹下使用mklink命令创建快捷方式，使得onedrive可以检测到音乐文件夹并进行同步，具体<strong>CMD</strong>命令如下</p>
@@ -300,7 +325,17 @@
 <h2 id="foobox内置小插件musictag">Foobox内置小插件MusicTag</h2>
 <p>前面说过FooBox是Foobar2k的国内魔改版，因此它也有一个接入国内网络音乐供应商接口的插件，就是这个称为MusicTag的插件</p>
 <p>在FooBox主界面可以右键任意一首歌在菜单栏找到<code>使用MusicTag编辑</code>，</p>
-<p><img src="img/3.jpg" alt="MusicTag"></p>
+
+
+<div class="box" style="max-width:100%">
+  <figure  itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+    <div class="img">
+      <img itemprop="thumbnail" src="img/3.jpg" alt="原本这里有个MusicTagQwQ"/>
+    </div>
+    <a href="img/3.jpg" itemprop="contentUrl"></a>
+  </figure>
+</div>
+
 <p>这个插件不止左边自己编辑，在上面菜单栏有<code>标签源</code>可以通过网易云或者qq音乐的源对音乐文件进行tag或者封面的直接导入。tag和封面还可以通过选定多个音乐文件之后使用菜单栏的<code>批量</code>进行批量处理，不过批量处理的精度显然不如人工，处理后需要人为检验一下歌曲和tag的匹配是否正确</p>
 <h2 id="音乐下载">音乐下载</h2>
 <p>上面介绍的都是本地音乐，在添加新的音乐时还是需要其他工具来下载我们需要添加的音乐。</p>
@@ -344,9 +379,6 @@
       
 
 
-      
-        
-        
       
 
     </div>
