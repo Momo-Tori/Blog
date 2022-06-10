@@ -1,3 +1,12 @@
+<!--
+ * @Author: MomoTori
+ * @Date: 2021-12-29 17:02:21
+ * @LastEditors: MomoTori
+ * @LastEditTime: 2022-06-11 00:08:43
+ * @FilePath: \Blog\layouts\partials\head.html
+ * @Description: 
+ * Copyright (c) 2022 by MomoTori, All Rights Reserved. 
+-->
 {{- if eq .Kind "taxonomyTerm" }}
   {{- range $key, $value := .Data.Terms.ByCount }}
     {{- $.Scratch.Add "most_used" (slice $value.Name) }}
@@ -86,6 +95,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
   {{- end -}}
+
+<!-- 不蒜子 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
 
 {{- partial "head_custom.html" . }}
 {{ template "_internal/google_analytics_async.html" . }}
