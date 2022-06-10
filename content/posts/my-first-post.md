@@ -6,13 +6,14 @@ categories: ["建站笔记"]
 date: 2021-12-29T22:01:26+08:00
 ---
 
-![eris](/~taoyang_2002/blog/public/img/blog/eris1.jpg)
 
 **首先的首先：**
 Hugo永远滴神，比Hexo高到不知道哪里去了（引战打死
 
-
 <!--more-->
+
+{{< figure src="../../img/blog/eris1.jpg" width="70%" alt="eris" >}}
+
 ## 为什么要建立这个博客
 
 一年前就知道科大有个FTP服务器可以用了，可是因为知识原因，不了解HTML和CSS等网络相关的语言，所以一直没有动手

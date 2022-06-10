@@ -66,10 +66,7 @@ int sumarrayrows(int a[M][N])
 
 存储器层次结构的中心思想是，对于第k层，位于k层更快更小的存储设备作为位于k+1层的更大更慢的存储设备的缓存。第k+1层所有存储被划分为相同的内存块，称为块（block），每个块都有唯一的地址或名字；而第k层也被划分为相同大小的块，数据都是以块为单元在k层和k+1层之间传递的。虽然任意一堆相邻层次对之间块的大小是固定的，但其他的层次对之间可以有不同的块大小
 
-![memory1](img/memory1.png)
-<center>
-图1 缓存模型
-</center>
+{{< figure src="img/memory1.png" title="缓存模型" width="100%" alt="原本这里有个缓存模型QwQ" >}}
 
 如图1所示，第k+1层有16个块，其中第k层的4,9,14,3都是来自k+1层的缓存
 
@@ -91,11 +88,11 @@ int sumarrayrows(int a[M][N])
 
 本节讲述一个通用高速缓存如何进行命中与不命中的判断
 
-![memory2](img/memory2.png)
+{{< figure src="img/memory2.png" width="100%" alt="原本这里有个图QwQ" >}}
 
 对于一个字节数据的地址如上图所示，对于一个高速缓存，可以将其划分为三个部分，标记部分（tag）、集索引（set index）和块索引（block index），这三个标记与下面这张高速缓存结构图各个对应
 
-![memory3](img/memory3.png)
+{{< figure src="img/memory3.png" width="100%" alt="原本这里有个图QwQ" >}}
 
 自顶而下进行分析
 - 一个高速缓存存储器分有$2^s$个集（set），因为上面所说的子集策略，可以用地址集索引部分对选择对应的集
